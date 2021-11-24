@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <h1>Let's play a Tic-Tac-Toe</h1>
+      <section class="play-field">
+        <div class="game-cell" id="0"></div>
+        <div class="game-cell" id="1"></div>
+        <div class="game-cell" id="2"></div>
+        <div class="game-cell" id="3"></div>
+        <div class="game-cell" id="4"></div>
+        <div class="game-cell" id="5"></div>
+        <div class="game-cell" id="6"></div>
+        <div class="game-cell" id="7"></div>
+        <div class="game-cell" id="8"></div>
+      </section>
+      <section class="game-status-field">
+        <div class="message">
+          Game status: <span class="green">play on</span>
+        </div>
+        <div>
+          <button class="reset-button">reset-button</button>
+          <span
+            ><span class="material-icons-outlined"> arrow_back </span> start a
+            new game</span
+          >
+        </div>
+      </section>
+    </div>
+    <aside class="description">
+      <p><b>Game for a Two players</b></p>
+      <ol>
+        <li>Make a move one after another</li>
+        <li>Put in on a free field</li>
+        <li>If tie-game: press the <span class="bold"> reset</span> button</li>
+      </ol>
+    </aside>
+    <script src="js.js"></script>
+  </body>
+</html>
