@@ -1,2 +1,2 @@
-# tic-tac-toe (Камень, ножницы, бумага)
+# tic-tac-toe (крестики-нолики)
 js mini-game
