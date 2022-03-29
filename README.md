@@ -2,7 +2,7 @@
 
 
 Please wellcome to online js mini-game Tic-Tac-Toe!
-=====================================
+------------------------------------------------------------------------------------
 
 This is simple js application
 
